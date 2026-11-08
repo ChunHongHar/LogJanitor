@@ -43,7 +43,7 @@ docker run \
 
 As this is a standalone container, it is runnable as a Kubernetes sidecar container to any pod. Make sure that logs are mounted as a volume to the `logjanitor` container so LogJanitor can "see" them.
 
-```helm
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
